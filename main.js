@@ -10,9 +10,9 @@ video.hide();
 }
 
 function draw(){
-
+image(video,0,0,640,480)
 }
 
 function save_img(){
-    save(filtered_img.png)
+    save(filtered_img.png);
 }
